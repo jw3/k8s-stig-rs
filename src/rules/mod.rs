@@ -10,8 +10,8 @@ pub struct RuleConf {
     pub wd: String,
 }
 
-pub struct K220<'a>(pub &'a RuleConf);
-pub struct K2620<'a>(pub &'a RuleConf);
+pub struct K000220<'a>(pub &'a RuleConf);
+pub struct K002620<'a>(pub &'a RuleConf);
 
-pub mod k220;
-pub mod k2620;
+pub mod k000220;
+pub mod k002620;

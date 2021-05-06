@@ -15,7 +15,7 @@ fn main() -> Result<(), String> {
     let opts = Opts::parse();
 
     let cfg = RuleConf { wd: opts.current_dir };
-    let all: Vec<Box<dyn Rule<ErrType=String>>> = vec![Box::new(K220(&cfg)), Box::new(K2620(&cfg))];
+    let all: Vec<Box<dyn Rule<ErrType=String>>> = vec![Box::new(K000220(&cfg)), Box::new(K002620(&cfg))];
 
     let mut failures = 0;
     for rule in all {

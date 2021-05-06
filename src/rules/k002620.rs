@@ -10,7 +10,7 @@ use crate::Rule;
 /// set in the manifest file.
 /// CNTR-K8-002620
 /// Category I
-impl<'a> Rule for crate::K2620<'a> {
+impl<'a> Rule for crate::K002620<'a> {
     type ErrType = String;
 
     fn id(&self) -> String {

@@ -9,7 +9,7 @@ use crate::Rule;
 /// the attack surface by generating unique service accounts settings for each controller instance.
 /// CNTR-K8-000220
 /// Category I
-impl<'a> Rule for crate::K220<'a> {
+impl<'a> Rule for crate::K000220<'a> {
     type ErrType = String;
 
     fn id(&self) -> String {
